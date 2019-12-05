@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BTDatabase" Class="DemoDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=201.168.1.7;Initial Catalog=BTDatabase;Persist Security Info=True;User ID=sa" SettingsObjectName="BTRun.Properties.Settings" SettingsPropertyName="BTDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ThreesAllTheWayDown" Member="ThreesAllTheWayDowns">
+    <Type Name="ThreesAllTheWayDown">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ThemWillBeThree" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
